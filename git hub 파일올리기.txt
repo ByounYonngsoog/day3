@@ -1,0 +1,7 @@
+git 
+git init
+git status
+파이썬 파일 작성(*.py)
+git add .
+git commit -m "메시지"
+git push origin master
