@@ -14,14 +14,14 @@ class Cal():
     def mul(self, input_value):
         self.value *= input_value  
 
-# 예외처리
+# 모든경우의 예외처리
     def div(self, input_value):
         try:
-            self.value /= input_value
-        except ZeroDivisionError:
-            print("0으로 나눌 수 없습니다.!")
+            self.value /= "v"
+        except:
+            print("오류가 발생했습니다.!")
         finally:
-            print("나눗셈 실행완료!")
+            print("실행완료!")
 
 # div 함수 그대로 살리면서 0으로 나누는 것을 처리하고자 할 때
 # 상속과 오버라이드 이용해서 해결하는 방법
