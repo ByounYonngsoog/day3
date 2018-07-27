@@ -1,4 +1,6 @@
 # from calculator import add, sub, mul, div
+# from calculator import add
+# from calculator import add, sub
 from calculator import *
 
 result = add(10,20)
